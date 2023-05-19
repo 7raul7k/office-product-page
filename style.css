@@ -144,6 +144,28 @@ body{
     justify-items: center;
   }
 
+  .aside1{
+    grid-area: aside1;
+
+    display: grid;
+
+   
+
+    grid-template-columns: 210px;
+    grid-template-rows: 200px 80px 430px 420px 80px 200px 140px 90px 90px 140px 190px 250px 100px 150px 170px 180px 380px 80px;
+    grid-row-gap: 10px;
+    font-size: 12px;
+    margin-left: 5%;
+  }
+
+  .product-category-selector{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 255, 0.281);
+    color: blue;
+  }
+
+
 
 
 
