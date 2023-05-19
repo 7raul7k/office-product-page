@@ -119,6 +119,31 @@ body{
     color: white;
 }
 
+.main{
+    grid-area: main;
+
+    display: grid;
+
+
+
+  
+    grid-template-columns: 1fr 4fr 1fr ; 
+    grid-template-rows: 50px 190px 400px 400px;  
+    gap: 7px 5px; 
+    grid-template-areas: 
+      "inner inner inner"
+      "aside1 aside2 aside2"
+      "aside1 product-container product-container"
+      "aside1 product-container product-container"
+      "aside1 product-container product-container"; 
+  }
+
+  .inner{
+    grid-area: inner;
+    color: gray;
+    justify-items: center;
+  }
+
 
 
 
