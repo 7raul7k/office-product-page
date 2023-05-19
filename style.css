@@ -66,4 +66,59 @@ body{
     width: 20%;
 }
 
+.nav{
+    grid-area: nav;
+
+
+     background: linear-gradient(to right,#ff1d25 5%,#a0328c 35%,#7040a4 45%,#4359c7 55%,#0082e6 70%);
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.produse-container{
+    display: flex;
+
+    background-color: white;
+
+    border-radius: 1em;
+
+    align-items: center;
+
+    text-decoration: none;
+    color: black;
+
+    min-width: 100px;
+    
+   
+    
+    
+}
+
+.selector-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    color: white;
+   
+    width: 35%;
+}
+
+.emag-help a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
 
