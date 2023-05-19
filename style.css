@@ -152,7 +152,7 @@ body{
    
 
     grid-template-columns: 210px;
-    grid-template-rows: 200px 80px 80px 220px 130px 220px 230px 150px 80px;
+    grid-template-rows: 200px 80px 80px 220px 130px 220px 230px 150px 80px 300px;
     grid-row-gap: 10px;
     font-size: 12px;
     margin-left: 5%;
